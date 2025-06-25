@@ -66,6 +66,6 @@ Option 2: Run Online (No Setup Needed)
 The app is deployed on Streamlit Cloud.
 Click below to try it instantly:
 
-🔗 https://nahan-ai-confession-keeper.streamlit.app
+🔗https://confession-keeper-gytailfdzfab2rycxjv7hq.streamlit.app/
 
 
