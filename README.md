@@ -6,29 +6,29 @@ An AI-powered web application that allows users to anonymously submit confession
 
 ## 📌 Project Overview
 
-**The Confession Keeper** is built using **Python**, **Streamlit**, and **TextBlob**.  
-It provides a safe space for users to express their emotions anonymously.  
-Each confession is analyzed for sentiment (Positive, Negative, or Neutral), and mood-related emojis and motivational quotes are displayed to uplift the user.
+**The Confession Keeper** is a sentiment-based AI web app built using **Python**, **Streamlit**, and **TextBlob**.  
+It allows users to submit anonymous confessions, detects the emotional tone using AI, and shows motivational quotes and bar charts based on mood.
 
 ---
 
 ## 🔍 Objective
 
 - Build a beautiful AI-powered web app with sentiment analysis
-- Enable users to submit anonymous confessions
-- Display sentiment using **TextBlob**
-- Present results with emojis, quotes, and charts
-- Deploy the app using **Streamlit Cloud**
+- Accept anonymous confessions from users
+- Analyze emotion with **TextBlob**
+- Display motivational quotes and mood-related emojis
+- Visualize moods using bar charts
+- Deploy the app publicly using **Streamlit Cloud**
 
 ---
 
 ## 🌟 Features
 
 - 📝 Anonymous confession submission  
-- 💬 Sentiment analysis with emotional emoji feedback  
-- 📈 Bar chart of mood trends  
-- 🌈 Motivational quotes on each visit  
-- 🎨 Beautiful UI with custom fonts and colors
+- 💬 Sentiment analysis with emojis and labels  
+- 📈 Bar chart to display mood trends  
+- 🌈 Random motivational quote generator  
+- 🎨 Clean, responsive and aesthetic UI (CSS embedded)
 
 ---
 
@@ -40,33 +40,31 @@ Each confession is analyzed for sentiment (Positive, Negative, or Neutral), and 
 | Neutral    | -0.1 to 0.1       | 😐🤔            |
 | Negative   | < -0.1            | 😞💔            |
 
-Sentiment is determined using **TextBlob**, a natural language processing tool in Python.
+Sentiment is detected using **TextBlob**, an NLP tool in Python.
 
 ---
 
-## 💻 Tech Stack
+## 📁 Files Included
 
-| Tool          | Description                              |
-|---------------|------------------------------------------|
-| Python        | Programming Language                     |
-| Streamlit     | UI Framework for web apps                |
-| TextBlob      | Sentiment Analysis Library               |
-| Matplotlib    | Visualization (bar chart)                |
-| HTML/CSS      | Styling via Streamlit markdown injection |
-
----
-
-## 📷 Screenshots
-
-> *(Optional – You can upload screenshots to an `/images` folder and replace this image below)*
-
-![App Screenshot](images/screenshot1.png)
+| File Name       | Description                                 |
+|------------------|---------------------------------------------|
+| `app.py`         | Main Streamlit app code                     |
+| `requirements.txt` | List of Python packages required            |
+| `README.md`      | Documentation file (this file)              |
+| `images/` _(optional)_ | Folder for screenshots (if added)         |
 
 ---
 
-## 🚀 How to Run Locally
-
-1. **Clone the repository**
+## 🚀 How to Run the App
+option 1:Clone this repository
 
 ```bash
 git clone https://github.com/nahan-ai/confession-keeper.git
+cd confession-keeper
+ Option 2: Run Online (No Setup Needed)
+The app is deployed on Streamlit Cloud.
+Click below to try it instantly:
+
+🔗 https://nahan-ai-confession-keeper.streamlit.app
+
+
