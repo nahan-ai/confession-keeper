@@ -57,14 +57,10 @@ Sentiment is detected using **TextBlob**, an NLP tool in Python.
 
 ## 🚀 How to Run the App
 option 1:Clone this repository
-
-```bash
 git clone https://github.com/nahan-ai/confession-keeper.git
 cd confession-keeper
 
 Option 2: Run Online (No Setup Needed)
-
-```bash
 The app is deployed on Streamlit Cloud.
 Click below to try it instantly:
 
